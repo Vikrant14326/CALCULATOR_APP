@@ -1,4 +1,4 @@
-from cal_fun import do_addition, do_subtraction
+from cal_fun import do_addition, do_subtraction,do_division
 from multiply import do_multiplication
 
 def main():
@@ -25,9 +25,8 @@ Select the function from the given options:
             result = do_subtraction(a, b)
         elif user_input == "3":    
             result = do_multiplication(a,b)
-        else:
-            print("Invalid selection")
-            return
+           
+       
 
         print('Result:', result)
     except Exception as e:
